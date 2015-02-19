@@ -1,0 +1,13 @@
+.navlinks {
+	min-width: 183px;
+}
+
+nav ul {
+	background: #67a556;
+	height: 75px;
+	width: 100%;
+}
+
+#wrapper {
+	border: 1px solid #ccc;	
+}

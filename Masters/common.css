@@ -1,0 +1,72 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin:0; padding:0;	border:0; font-size:100%; font:inherit;	vertical-align:baseline; }
+
+body { background: #002232 url(background.jpg) top center no-repeat; background-attachment: fixed; background-size: 100%; font: 400 16px/24px 'Roboto', sans-serif; color: #fff; }
+sup { font-size: 50%; position: relative; top: 2px; }
+p { margin-bottom: 20px; }
+footer { background: #fff; color: #333; font-size: 12px; padding: 50px 5%; width: 90%; line-height: 18px; }
+footer p { margin-bottom: 0; }
+article { display: block; }
+article .title img { float: left; margin-right: 20px; }
+article ul { margin: 10px 0 10px 30px; }
+article ul li { list-style-type: none; }
+article ul li .arrow-left { width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 6px solid #419639; margin-right: 6px; float: left; display:inline-block; position: relative; top: 8px; }
+label { font-size: 14px; margin-top: 5px; display: block; }
+input[type=text] { padding: 4px 3%; width: 94%; border-radius: 3px; box-shadow: inset 2px 2px 2px rgba(0,0,0,0.1); border: 1px solid #ddd; height: 26px; line-height: 26px; font-size: 16px; }
+input[type=submit] { -webkit-appearance: none; cursor:pointer; font: 500 16px/30px "Roboto", sans-serif; width: 92%; padding: 10px 6% 10px 2%; color: #333; border: 0; background: 0; text-align: center; color: #121212; display: block; } 
+input[type=submit]:hover { color: #003f6f; }
+#clock, .radiowrap, #client-label { display: none; }
+.clearfix {	clear: both; }
+.trigger { cursor: pointer; }
+.container { max-width: 960px; margin: 0 auto; width: 96%; padding: 50px 0; }
+.header { color: #fff; padding: 33px 0; border-bottom: 1px solid #fff; }
+.header .pretitle { font: 300 94px/104px "Roboto Slab", serif; }
+.header .title { font: 300 130px/134px "Roboto Slab", serif; }
+.page { margin: 0 auto; padding: 0 0 50px 0; }
+.left-side { width: 65%; float: left; padding: 50px 0 0 0; }
+.left-side .title { font: 300 32px/42px "Roboto Slab", serif; width: 80%; padding: 20px 0 30px; }
+.left-side .text { padding-right: 12%; }
+.contact { border-top: 1px solid #fff; margin-top: 80px; padding: 70px 0; }
+.contact .img-holder { float: left; padding: 25px; background: #82c341; border-radius: 250px; width: 64px; margin: 0 50px 20px 10px; }
+.contact .img-holder img { margin: 0 auto; display: block; }
+.contact .text { font: 400 18px/28px "Roboto Slab", serif; }
+.contact .phone { font: 400 36px/36px "Roboto Slab", serif; padding-top: 10px; }
+.right-side { width: 34.8%; float: right; padding: 20px 0; background: url(left-side.png) left center no-repeat; border-left: 1px solid #fff; }
+.right-side .title { font: 400 24px/24px "Roboto Slab", serif; padding-bottom: 20px; text-align: left; width: auto; margin: 0; }
+.subtitle { font: 500 18px/18px "Roboto", sans-serif; text-transform: uppercase; color: #00a9e7; }
+.button, input[type=submit] { border-right: 2px solid #c88d0b; border-bottom: 2px solid #c88d0b; padding: 10px; margin: 25px 0; position: relative; color: #333 !important; background: #fba613; border-radius: 3px; font-weight: 500; display: block; max-width: 200px; text-align: center; font-size: 18px; }
+input[type=submit] { width: 100%; max-width: none; border: 0 !important; }
+.button:hover, input[type=submit]:hover { background: #ffe76b; text-decoration: none !important; }
+.videos { border-top: 1px solid #fff; padding-top: 50px; }
+.videos .title { font: 300 34px/44px "Roboto", sans-serif; background: #009ae2; padding: 10px 20px; text-align: center; text-transform: uppercase; max-width: 580px; border-bottom: 1px solid #064562; }
+.video { float: left; width: 300px; }
+.video.mid { margin: 0 30px; }
+.video img { margin: 0 auto 40px; display: block !important; }
+.video img:hover { opacity: 0.7; }
+.video .text { font: 300 18px/26px "Roboto Slab", serif; padding-bottom: 20px; }
+.video .speaker { font: 500 14px/22px "Roboto Slab", serif; text-transform: uppercase; }
+.video .company { font-size: 12px; }
+.row { margin-top: 30px; }
+
+.overlay { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000)"; background: rgba(0, 0, 0, 0.8); position: fixed; top: 0; right: 0; left: 0; right: 0; height: 100%; width: 100%; z-index:99999; display: none; }
+.overlay .wrap { padding: 15px; background: #fff; width: 80%; max-width: 700px; height: auto; margin: 0 auto; top: 100px; position: relative; }
+.overlay .wrap iframe { width: 100%; float:none; margin: 0 0 -5px 0; }
+.overlay .wrap .close, #ball_close .close { background: url("http://www.insperity.com/cs/insperity/img/icon-sprite.png") -80px -65px; color: #333333; float: right; font-family: arial, sans-serif; font-weight: bold; height: 30px; margin: -30px -30px 0 0; text-align: right; width: 31px; cursor:pointer; }
+.half img.thumb, input[type=submit] { transition: .3s; -ms-transition: .3s; -webkit-transition: .3s; -moz-transition: .3s; }
+
+
+.form { padding: 50px 5% 0 15%; width: 80%; }
+.form .title { font: 400 28px/36px "Roboto Slab", serif; padding-bottom: 20px; color: #82c341; }
+.form .text { font-size: 18px; line-height: 22px; padding: 5px; color: #fff; padding: 20px 0; width: 100%; }
+.form .link { font-size: 14px; font-style: italic; padding: 10px 0; }
+.form .link a { color: #fff; }
+.form .link a:hover { text-decoration: none; }
+
+.form-group { margin-bottom: 10px; }
+.group3 { width: 46%; float: right; }
+.group2 { width: 46%; float: left; }
+	
+.correct { box-shadow: inset 0px 0px 10px rgba(232, 250, 184, 0.8) !important; color: #374a03; background: #fff url(checkmark.svg) 99.8% 5px no-repeat; }
+.error { box-shadow: inset 0px 0px 10px rgba(251, 196, 188, 0.8) !important; color: #b71d07; background: #fff url(ex.svg) 99.8% 5px no-repeat; }
+.error.email { box-shadow: inset 0px 0px 10px rgba(251, 196, 188, 0.8) !important; color: #b71d07; background: #fff url(ex.svg) 99.8% 5px no-repeat; }
+.correct.email { box-shadow: inset 0px 0px 10px rgba(232, 250, 184, 0.8) !important; color: #374a03; background: #fff url(checkmark.svg) 99.8% 5px no-repeat; }
+

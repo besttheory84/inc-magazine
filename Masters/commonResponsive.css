@@ -1,0 +1,30 @@
+@media all and (max-width: 1020px) {
+	.header .pretitle { font: 300 54px/64px "Roboto Slab", serif; }
+	.header .title { font: 300 90px/94px "Roboto Slab", serif; }
+	.video, .video.mid { width: 100%; margin: 0 auto 60px; text-align: center; max-width: 500px; float: none; }
+	.videos .title { margin: 0 auto 50px; }
+	.arrow { display: none; }
+	.group3, .group2 { width: 100%; float: none; }
+	body { background-size: auto; }
+	.contact .phone a, .contact .phone { color: #fff; }
+	.form .title { font-size: 24px; }
+}
+@media all and (max-width: 768px) {
+	.header .pretitle { font: 300 34px/44px "Roboto Slab", serif; text-align: center; }
+	.header .title { font: 300 50px/54px "Roboto Slab", serif; text-align: center; }
+	.container { padding: 0; }	
+	.left-side, .right-side, .left-side .title, .left-side .text  { width: 100%; float: none; margin: 0 auto; }
+	.right-side { border-left: 0; border-top: 1px solid #fff; }
+	.left-side .text { padding-right: 0; }
+	.left-side { text-align: center; }
+	.button { margin: 20px auto; }	
+	.form { padding: 50px 0; margin: 0 auto; }
+	.contact .img-holder { float: none; margin: 0 auto 25px; }
+	.video img { width: 100%; max-width: 300px; }
+	.overlay .wrap { top: 10%; }
+}
+@media all and (max-width: 480px) {
+	.header .pretitle { font: 300 24px/34px "Roboto Slab", serif; text-align: center; }
+	.header .title { font: 300 30px/34px "Roboto Slab", serif; text-align: center; }
+	
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.iconarrow {
+	display:none;	
+}
+
+.correct, .correct:focus {
+		border: 1px solid #b9c793;
+		color: #374a03;
+		background: #fff url(checkmark.jpg) 99% 4px no-repeat;
+	}
+	
+.error, .error:focus {
+		border: 1px solid #ba6f64;	
+		color: #b71d07;
+		background: #fff url(ex.jpg) 99% 4px no-repeat;
+	}

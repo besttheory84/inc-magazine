@@ -1,1 +1,1 @@
-# inc-magazine
+# img-magazine

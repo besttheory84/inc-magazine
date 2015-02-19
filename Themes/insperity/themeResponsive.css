@@ -1,0 +1,184 @@
+/***** ***** TABLET VIEW CHANGES ***** *****/
+
+
+@media all and (max-width: 979px) {
+
+	#wrapper {
+		padding: 4%;
+		width: 92%;	
+	}
+	
+	nav {
+		min-width: 0;
+		background-size: 100%;
+		background-image: none;
+		width: 100%;	
+		margin-left: 0;
+	}
+	
+	.navlinks {
+		width: 20%;
+		border: 0;
+		min-width: 0;	
+	}
+	
+	input[type=text], input[type=email] {
+		min-width: 160px
+	}
+	
+	input[type=submit] {
+		padding: 5px 15px;
+		font-size: 12px;	
+	}
+	
+	#banner h1 {
+		padding-left: 10%;	
+		font-size: 32px;
+	}
+	
+	.listitem {
+		margin-bottom: 20px;
+		min-height: 0;
+		max-width: none;
+	}
+	
+	.floatsection, #container .floatsection:nth-child(2), #container .floatsection:last-child {
+		width: 100%;
+		float: none;	
+	}
+	
+	#container p {
+		width: 90%;
+		max-width: 500px;	
+	}
+	
+}
+
+
+/***** ***** 7-INCH TABLET VIEW ***** *****/
+
+
+@media all and (max-width: 790px) {
+	
+	nav {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 40px;
+		z-index: 200;	
+	}
+	
+	nav ul {
+		margin-top: 40px;
+		display: none;
+		position: absolute;
+		width: 100%;	
+		z-index: 100;
+	}
+	
+	.navlinks {
+		height: 40px;	
+		width: 94%;
+		padding: 0 3%;
+		text-align: left
+	}
+	
+	.navlinks a {
+		line-height: 40px;
+	}
+	
+	.menubutton {
+		display: block;	
+	}
+	
+	#form_holder {
+		position: fixed;
+		bottom: 0;
+		width: 90%;
+		padding: 0 5%;
+		left: 0;
+		right: 0;
+		max-height: 60px;
+		max-width: none;	
+	}
+	
+	#form_header {
+		display: none;	
+	}
+	
+	#mobile_form_header {
+		display: block;
+		font: bold 18px/60px 'Roboto', arial;
+		text-align: center;	
+		color: #333740;
+		cursor: pointer;
+	}
+
+	#header_link_image1 {
+		margin-right: 30px;	
+	}
+
+	#banner h1 {
+		width: 100%;
+		float: none;
+		text-align: center;	
+		padding: 170px 0 0 0;
+	}
+	
+	#bannertext {
+		width: 100%;
+		padding: 0;	
+	}
+	
+	table {
+		margin: 0 auto;	
+	}
+
+}
+
+
+/***** ***** MOBILE PHONE CHANGES ***** *****/
+
+
+@media all and (max-width: 580px) {
+
+	.header_image, #header_link_image1 {
+		display: block;
+		float: none;
+		margin: 0 auto 15px auto;	
+	}
+	
+	header {
+		height: auto;	
+	}
+	
+	#call {
+		text-align: center;
+		margin: 20px 0;	
+	}
+	
+	.icon {
+		margin-right: 10px;	
+	}
+	
+	#container h1 {
+		font-size: 16px;
+		line-height: 20px;	
+	}
+	
+	#container, footer {
+		padding: 4%;	
+	}
+	
+	footer {
+		font-size: 8px;	
+	}
+	
+	#mobile_form_header {
+		font-size: 16px;	
+	}
+	
+}
